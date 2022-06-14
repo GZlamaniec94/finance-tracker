@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.1'
-
+gem 'bootstrap', '~> 4.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
 
@@ -58,3 +58,7 @@ end
 gem 'tzinfo-data'
 gem 'net-smtp'
 gem 'devise'
+
+gem 'jquery-rails'
+gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
